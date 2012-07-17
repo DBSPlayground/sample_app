@@ -4,10 +4,14 @@ gem 'rails', '3.2.6'
 gem 'bootstrap-sass', '2.0.0'
 gem 'bcrypt-ruby', '3.0.1'
 
+gem 'ruby-debug-base19'
+gem 'ruby-debug19'
+
 group :development, :test do
   gem 'sqlite3', '1.3.5'
   gem 'rspec-rails', '2.10.0'
   gem 'guard-rspec', '0.5.5'
+  gem 'launchy'
 end
 
 gem 'annotate', '~> 2.4.1.beta', group: :development
